@@ -76,8 +76,8 @@ header a:hover {
     /* outline: none; */
     border: 1px solid rgb(166, 165, 165);
     width: 100%;
-    padding: 1em .3em;
-    border-radius: .3em;
+    padding: 1em 0.3em;
+    border-radius: 0.3em;
 }
 
 .meme-data-form button {
@@ -86,7 +86,18 @@ header a:hover {
     color: inherit;
     background-image: var(--gradient-color);
     border: none;
-    border-radius: .5em;
+    border-radius: 0.5em;
+    transition: 0.3s ease-in-out;
+}
+
+.meme-data-form button:is(:hover, :active) {
+    --gradient-color: linear-gradient(
+        90deg,
+        hsl(284, 58%, 49%) 1.18%,
+        hsl(284, 69%, 32%) 100%
+    );
+    cursor: pointer;
+    letter-spacing: 0.2em;
 }
 
 /* media queries */
