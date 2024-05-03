@@ -4,6 +4,7 @@ const Main = () => {
     return (
         <section>
             <Form />
+            <Meme />
         </section>
     );
 };
