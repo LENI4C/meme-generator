@@ -1,4 +1,4 @@
-export default [
+const Memedata = [
     {
         id: "181913649",
         name: "Drake Hotline Bling",
@@ -8,7 +8,7 @@ export default [
         box_count: 2,
         captions: 1234250,
     },
-    
+
     {
         id: "87743020",
         name: "Two Buttons",
@@ -18,7 +18,7 @@ export default [
         box_count: 3,
         captions: 986750,
     },
-    
+
     {
         id: "112126428",
         name: "Distracted Boyfriend",
@@ -28,7 +28,7 @@ export default [
         box_count: 3,
         captions: 1019000,
     },
-    
+
     {
         id: "217743513",
         name: "UNO Draw 25 Cards",
@@ -38,7 +38,7 @@ export default [
         box_count: 2,
         captions: 547500,
     },
-    
+
     {
         id: "131087935",
         name: "Running Away Balloon",
@@ -48,7 +48,7 @@ export default [
         box_count: 5,
         captions: 523000,
     },
-    
+
     {
         id: "124822590",
         name: "Left Exit 12 Off Ramp",
@@ -58,7 +58,7 @@ export default [
         box_count: 3,
         captions: 627750,
     },
-    
+
     {
         id: "222403160",
         name: "Bernie I Am Once Again Asking For Your Support",
@@ -68,7 +68,7 @@ export default [
         box_count: 2,
         captions: 279000,
     },
-    
+
     {
         id: "129242436",
         name: "Change My Mind",
@@ -78,7 +78,7 @@ export default [
         box_count: 2,
         captions: 613000,
     },
-    
+
     {
         id: "131940431",
         name: "Gru's Plan",
@@ -88,7 +88,7 @@ export default [
         box_count: 4,
         captions: 300500,
     },
-    
+
     {
         id: "4087833",
         name: "Waiting Skeleton",
@@ -98,7 +98,7 @@ export default [
         box_count: 2,
         captions: 417750,
     },
-    
+
     {
         id: "135256802",
         name: "Epic Handshake",
@@ -108,7 +108,7 @@ export default [
         box_count: 3,
         captions: 208750,
     },
-    
+
     {
         id: "438680",
         name: "Batman Slapping Robin",
@@ -118,7 +118,7 @@ export default [
         box_count: 2,
         captions: 606500,
     },
-    
+
     {
         id: "80707627",
         name: "Sad Pablo Escobar",
@@ -128,7 +128,7 @@ export default [
         box_count: 3,
         captions: 196000,
     },
-    
+
     {
         id: "161865971",
         name: "Marked Safe From",
@@ -138,7 +138,7 @@ export default [
         box_count: 2,
         captions: 174500,
     },
-    
+
     {
         id: "97984",
         name: "Disaster Girl",
@@ -148,7 +148,7 @@ export default [
         box_count: 2,
         captions: 336500,
     },
-    
+
     {
         id: "252600902",
         name: "Always Has Been",
@@ -158,7 +158,7 @@ export default [
         box_count: 2,
         captions: 179000,
     },
-    
+
     {
         id: "247375501",
         name: "Buff Doge vs. Cheems",
@@ -168,7 +168,7 @@ export default [
         box_count: 4,
         captions: 328250,
     },
-    
+
     {
         id: "322841258",
         name: "Anakin Padme 4 Panel",
@@ -178,7 +178,7 @@ export default [
         box_count: 3,
         captions: 103500,
     },
-    
+
     {
         id: "188390779",
         name: "Woman Yelling At Cat",
@@ -188,7 +188,7 @@ export default [
         box_count: 2,
         captions: 349750,
     },
-    
+
     {
         id: "91538330",
         name: "X, X Everywhere",
@@ -198,7 +198,7 @@ export default [
         box_count: 2,
         captions: 350250,
     },
-    
+
     {
         id: "309868304",
         name: "Trade Offer",
@@ -208,7 +208,7 @@ export default [
         box_count: 3,
         captions: 97000,
     },
-    
+
     {
         id: "110163934",
         name: "I Bet He's Thinking About Other Women",
@@ -218,7 +218,7 @@ export default [
         box_count: 2,
         captions: 141250,
     },
-    
+
     {
         id: "178591752",
         name: "Tuxedo Winnie The Pooh",
@@ -228,7 +228,7 @@ export default [
         box_count: 2,
         captions: 238000,
     },
-    
+
     {
         id: "102156234",
         name: "Mocking Spongebob",
@@ -238,7 +238,7 @@ export default [
         box_count: 2,
         captions: 412500,
     },
-    
+
     {
         id: "93895088",
         name: "Expanding Brain",
@@ -248,7 +248,7 @@ export default [
         box_count: 4,
         captions: 432750,
     },
-    
+
     {
         id: "79132341",
         name: "Bike Fall",
@@ -258,7 +258,7 @@ export default [
         box_count: 3,
         captions: 116250,
     },
-    
+
     {
         id: "148909805",
         name: "Monkey Puppet",
@@ -268,7 +268,7 @@ export default [
         box_count: 2,
         captions: 193750,
     },
-    
+
     {
         id: "180190441",
         name: "They're The Same Picture",
@@ -278,7 +278,7 @@ export default [
         box_count: 3,
         captions: 153750,
     },
-    
+
     {
         id: "101470",
         name: "Ancient Aliens",
@@ -288,7 +288,7 @@ export default [
         box_count: 2,
         captions: 355750,
     },
-    
+
     {
         id: "61579",
         name: "One Does Not Simply",
@@ -298,7 +298,7 @@ export default [
         box_count: 2,
         captions: 448250,
     },
-    
+
     {
         id: "61544",
         name: "Success Kid",
@@ -308,7 +308,7 @@ export default [
         box_count: 2,
         captions: 134000,
     },
-    
+
     {
         id: "3218037",
         name: "This Is Where I'd Put My Trophy If I Had One",
@@ -318,7 +318,7 @@ export default [
         box_count: 2,
         captions: 132250,
     },
-    
+
     {
         id: "55311130",
         name: "This Is Fine",
@@ -328,7 +328,7 @@ export default [
         box_count: 2,
         captions: 125750,
     },
-    
+
     {
         id: "195515965",
         name: "Clown Applying Makeup",
@@ -338,7 +338,7 @@ export default [
         box_count: 4,
         captions: 107750,
     },
-    
+
     {
         id: "1035805",
         name: "Boardroom Meeting Suggestion",
@@ -348,7 +348,7 @@ export default [
         box_count: 4,
         captions: 380250,
     },
-    
+
     {
         id: "27813981",
         name: "Hide the Pain Harold",
@@ -358,7 +358,7 @@ export default [
         box_count: 2,
         captions: 215000,
     },
-    
+
     {
         id: "370867422",
         name: "Megamind peeking",
@@ -368,7 +368,7 @@ export default [
         box_count: 2,
         captions: 77250,
     },
-    
+
     {
         id: "124055727",
         name: "Y'all Got Any More Of That",
@@ -378,7 +378,7 @@ export default [
         box_count: 2,
         captions: 196500,
     },
-    
+
     {
         id: "224015000",
         name: "Bernie Sanders Once Again Asking",
@@ -388,7 +388,7 @@ export default [
         box_count: 2,
         captions: 44750,
     },
-    
+
     {
         id: "316466202",
         name: "where monkey",
@@ -398,7 +398,7 @@ export default [
         box_count: 2,
         captions: 54750,
     },
-    
+
     {
         id: "28251713",
         name: "Oprah You Get A",
@@ -408,7 +408,7 @@ export default [
         box_count: 2,
         captions: 190000,
     },
-    
+
     {
         id: "119139145",
         name: "Blank Nut Button",
@@ -418,7 +418,7 @@ export default [
         box_count: 2,
         captions: 296250,
     },
-    
+
     {
         id: "100777631",
         name: "Is This A Pigeon",
@@ -428,7 +428,7 @@ export default [
         box_count: 3,
         captions: 208750,
     },
-    
+
     {
         id: "252758727",
         name: "Mother Ignoring Kid Drowning In A Pool",
@@ -438,7 +438,7 @@ export default [
         box_count: 4,
         captions: 48250,
     },
-    
+
     {
         id: "166969924",
         name: "Flex Tape",
@@ -448,7 +448,7 @@ export default [
         box_count: 3,
         captions: 62750,
     },
-    
+
     {
         id: "259237855",
         name: "Laughing Leo",
@@ -458,7 +458,7 @@ export default [
         box_count: 2,
         captions: 92250,
     },
-    
+
     {
         id: "89370399",
         name: "Roll Safe Think About It",
@@ -468,7 +468,7 @@ export default [
         box_count: 2,
         captions: 313000,
     },
-    
+
     {
         id: "99683372",
         name: "Sleeping Shaq",
@@ -478,7 +478,7 @@ export default [
         box_count: 2,
         captions: 94250,
     },
-    
+
     {
         id: "155067746",
         name: "Surprised Pikachu",
@@ -488,7 +488,7 @@ export default [
         box_count: 3,
         captions: 230500,
     },
-    
+
     {
         id: "177682295",
         name: "You Guys are Getting Paid",
@@ -498,7 +498,7 @@ export default [
         box_count: 2,
         captions: 50750,
     },
-    
+
     {
         id: "84341851",
         name: "Evil Kermit",
@@ -508,7 +508,7 @@ export default [
         box_count: 2,
         captions: 142250,
     },
-    
+
     {
         id: "226297822",
         name: "Panik Kalm Panik",
@@ -518,7 +518,7 @@ export default [
         box_count: 3,
         captions: 201250,
     },
-    
+
     {
         id: "114585149",
         name: "Inhaling Seagull",
@@ -528,7 +528,7 @@ export default [
         box_count: 4,
         captions: 229750,
     },
-    
+
     {
         id: "101956210",
         name: "Whisper and Goosebumps",
@@ -538,7 +538,7 @@ export default [
         box_count: 2,
         captions: 46000,
     },
-    
+
     {
         id: "135678846",
         name: "Who Killed Hannibal",
@@ -548,7 +548,7 @@ export default [
         box_count: 3,
         captions: 127750,
     },
-    
+
     {
         id: "284929871",
         name: "They don't know",
@@ -558,7 +558,7 @@ export default [
         box_count: 2,
         captions: 37750,
     },
-    
+
     {
         id: "427308417",
         name: "0 days without (Lenny, Simpsons)",
@@ -568,7 +568,7 @@ export default [
         box_count: 2,
         captions: 20250,
     },
-    
+
     {
         id: "247113703",
         name: "A train hitting a school bus",
@@ -578,7 +578,7 @@ export default [
         box_count: 2,
         captions: 53500,
     },
-    
+
     {
         id: "21735",
         name: "The Rock Driving",
@@ -588,7 +588,7 @@ export default [
         box_count: 2,
         captions: 211250,
     },
-    
+
     {
         id: "77045868",
         name: "Pawn Stars Best I Can Do",
@@ -598,7 +598,7 @@ export default [
         box_count: 2,
         captions: 38750,
     },
-    
+
     {
         id: "119215120",
         name: "Types of Headaches meme",
@@ -608,7 +608,7 @@ export default [
         box_count: 2,
         captions: 55000,
     },
-    
+
     {
         id: "123999232",
         name: "The Scroll Of Truth",
@@ -618,7 +618,7 @@ export default [
         box_count: 2,
         captions: 215750,
     },
-    
+
     {
         id: "134797956",
         name: "American Chopper Argument",
@@ -628,7 +628,7 @@ export default [
         box_count: 5,
         captions: 173000,
     },
-    
+
     {
         id: "101288",
         name: "Third World Skeptical Kid",
@@ -638,7 +638,7 @@ export default [
         box_count: 2,
         captions: 175250,
     },
-    
+
     {
         id: "61556",
         name: "Grandma Finds The Internet",
@@ -648,7 +648,7 @@ export default [
         box_count: 2,
         captions: 154250,
     },
-    
+
     {
         id: "221578498",
         name: "Grant Gustin over grave",
@@ -658,7 +658,7 @@ export default [
         box_count: 2,
         captions: 45500,
     },
-    
+
     {
         id: "216523697",
         name: "All My Homies Hate",
@@ -668,7 +668,7 @@ export default [
         box_count: 2,
         captions: 47750,
     },
-    
+
     {
         id: "171305372",
         name: "Soldier protecting sleeping child",
@@ -678,7 +678,7 @@ export default [
         box_count: 3,
         captions: 32500,
     },
-    
+
     {
         id: "50421420",
         name: "Disappointed Black Guy",
@@ -688,7 +688,7 @@ export default [
         box_count: 2,
         captions: 57250,
     },
-    
+
     {
         id: "91998305",
         name: "Drake Blank",
@@ -698,7 +698,7 @@ export default [
         box_count: 2,
         captions: 56500,
     },
-    
+
     {
         id: "61520",
         name: "Futurama Fry",
@@ -708,7 +708,7 @@ export default [
         box_count: 2,
         captions: 296250,
     },
-    
+
     {
         id: "5496396",
         name: "Leonardo Dicaprio Cheers",
@@ -718,7 +718,7 @@ export default [
         box_count: 2,
         captions: 223750,
     },
-    
+
     {
         id: "234202281",
         name: "AJ Styles & Undertaker",
@@ -728,7 +728,7 @@ export default [
         box_count: 2,
         captions: 31250,
     },
-    
+
     {
         id: "67452763",
         name: "Squidward window",
@@ -738,7 +738,7 @@ export default [
         box_count: 2,
         captions: 43250,
     },
-    
+
     {
         id: "224514655",
         name: "Anime Girl Hiding from Terminator",
@@ -748,7 +748,7 @@ export default [
         box_count: 2,
         captions: 43500,
     },
-    
+
     {
         id: "360597639",
         name: "whe i'm in a competition and my opponent is",
@@ -758,7 +758,7 @@ export default [
         box_count: 2,
         captions: 19500,
     },
-    
+
     {
         id: "371619279",
         name: "Megamind no bitches",
@@ -768,7 +768,7 @@ export default [
         box_count: 2,
         captions: 23250,
     },
-    
+
     {
         id: "110133729",
         name: "spiderman pointing at spiderman",
@@ -778,7 +778,7 @@ export default [
         box_count: 2,
         captions: 52000,
     },
-    
+
     {
         id: "267889046",
         name: "bell curve",
@@ -788,7 +788,7 @@ export default [
         box_count: 4,
         captions: 21250,
     },
-    
+
     {
         id: "6235864",
         name: "Finding Neverland",
@@ -798,7 +798,7 @@ export default [
         box_count: 3,
         captions: 155750,
     },
-    
+
     {
         id: "196652226",
         name: "Spongebob Ight Imma Head Out",
@@ -808,7 +808,7 @@ export default [
         box_count: 2,
         captions: 120750,
     },
-    
+
     {
         id: "342785297",
         name: "Gus Fring we are not the same",
@@ -818,7 +818,7 @@ export default [
         box_count: 3,
         captions: 32250,
     },
-    
+
     {
         id: "14371066",
         name: "Star Wars Yoda",
@@ -828,7 +828,7 @@ export default [
         box_count: 2,
         captions: 127250,
     },
-    
+
     {
         id: "29617627",
         name: "Look At Me",
@@ -838,7 +838,7 @@ export default [
         box_count: 2,
         captions: 57500,
     },
-    
+
     {
         id: "137501417",
         name: "Friendship ended",
@@ -848,7 +848,7 @@ export default [
         box_count: 2,
         captions: 29000,
     },
-    
+
     {
         id: "91545132",
         name: "Trump Bill Signing",
@@ -858,7 +858,7 @@ export default [
         box_count: 2,
         captions: 142000,
     },
-    
+
     {
         id: "175540452",
         name: "Unsettled Tom",
@@ -868,7 +868,7 @@ export default [
         box_count: 2,
         captions: 151000,
     },
-    
+
     {
         id: "61532",
         name: "The Most Interesting Man In The World",
@@ -878,7 +878,7 @@ export default [
         box_count: 2,
         captions: 213250,
     },
-    
+
     {
         id: "187102311",
         name: "Three-headed Dragon",
@@ -888,7 +888,7 @@ export default [
         box_count: 4,
         captions: 33750,
     },
-    
+
     {
         id: "142009471",
         name: "is this butterfly",
@@ -898,7 +898,7 @@ export default [
         box_count: 3,
         captions: 26250,
     },
-    
+
     {
         id: "162372564",
         name: "Domino Effect",
@@ -908,7 +908,7 @@ export default [
         box_count: 2,
         captions: 28250,
     },
-    
+
     {
         id: "206151308",
         name: "Spider Man Triple",
@@ -918,7 +918,7 @@ export default [
         box_count: 3,
         captions: 24750,
     },
-    
+
     {
         id: "145139900",
         name: "Scooby doo mask reveal",
@@ -928,7 +928,7 @@ export default [
         box_count: 4,
         captions: 23500,
     },
-    
+
     {
         id: "72525473",
         name: "say the line bart! simpsons",
@@ -938,7 +938,7 @@ export default [
         box_count: 3,
         captions: 24000,
     },
-    
+
     {
         id: "20007896",
         name: "c'mon do something",
@@ -948,7 +948,7 @@ export default [
         box_count: 2,
         captions: 28250,
     },
-    
+
     {
         id: "511654183",
         name: "Sad Hamster",
@@ -958,7 +958,7 @@ export default [
         box_count: 2,
         captions: 7500,
     },
-    
+
     {
         id: "478588645",
         name: "Borat 2 Tonight Queen??",
@@ -968,7 +968,7 @@ export default [
         box_count: 3,
         captions: 9000,
     },
-    
+
     {
         id: "92084495",
         name: "Charlie Conspiracy (Always Sunny in Philidelphia)",
@@ -978,7 +978,7 @@ export default [
         box_count: 2,
         captions: 29000,
     },
-    
+
     {
         id: "177984372",
         name: "What Gives People Feelings of Power",
@@ -988,7 +988,7 @@ export default [
         box_count: 2,
         captions: 35500,
     },
-    
+
     {
         id: "311582564",
         name: "i receive you receive",
@@ -998,5 +998,6 @@ export default [
         box_count: 2,
         captions: 18500,
     },
-    
 ];
+
+export default Memedata;
