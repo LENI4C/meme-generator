@@ -46,9 +46,16 @@ header a:hover {
 }
 
 /* Main component styling */
-.meme-data-form {
+.meme-data-form, main {
     width: 90vw;
     margin: auto;
+}
+
+main img {
+    width: 100%;
+    aspect-ratio: 1 / .4;
+    margin-top: 2em;
+    border-radius: .5em;
 }
 
 .meme-data-form > * {

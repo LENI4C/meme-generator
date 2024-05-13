@@ -10,7 +10,6 @@ export const Form = () => {
         const memeId = Math.floor(Math.random() * importedMemeData.length);
         const imageUrl = importedMemeData[memeId].url;
         setImageUrl(imageUrl);
-        return <img src={memeImg} alt="meme-image" />;
     };
 
     return (
@@ -44,6 +43,7 @@ export const Form = () => {
                     Get a new meme image 🌄
                 </button>
             </form>
+            <img src={memeImg} alt="meme-image" />
         </main>
     );
 };
