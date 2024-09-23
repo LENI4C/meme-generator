@@ -46,16 +46,38 @@ header a:hover {
 }
 
 /* Main component styling */
-.meme-data-form, main {
+.meme-data-form,
+main {
     width: 90vw;
     margin: auto;
 }
 
 main img {
     width: 100%;
-    aspect-ratio: 1 / .4;
+    aspect-ratio: 1 / 0.4;
     margin-top: 2em;
-    border-radius: .5em;
+    border-radius: 0.5em;
+}
+
+.meme-image {
+    position: relative;
+    color: beige;
+}
+
+.meme-image h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px black;
+    position: absolute;
+}
+
+.top-meme-text {
+    inset: 20% 45%;
+}
+
+.bottom-meme-text {
+    inset: 80% 45%;
 }
 
 .meme-data-form > * {

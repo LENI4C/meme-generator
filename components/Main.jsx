@@ -1,15 +1,27 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import Memedata from "../component data/memedata.js";
-const importedMemeData = Memedata;
 
 export const Form = () => {
-    const [memeImg, setImageUrl] = React.useState("");
+    const [memeImgUrl, setmemeImgUrl] = useState(null);
+    const [memeText, setMemeText] = useState({
+        topText: "",
+        bottomText: "",
+    });
 
     const HandleMemeDisplay = (e) => {
         e.preventDefault();
-        const memeId = Math.floor(Math.random() * importedMemeData.length);
-        const imageUrl = importedMemeData[memeId].url;
-        setImageUrl(imageUrl);
+        const memeId = Math.floor(Math.random() * Memedata.length);
+        const imageUrl = Memedata[memeId].url;
+        setmemeImgUrl(imageUrl);
+    };
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setMemeText((prevVal) => ({
+            ...prevVal,
+            [name]: value,
+        }));
     };
 
     return (
@@ -21,7 +33,9 @@ export const Form = () => {
                         <label>Top text</label>
                         <input
                             type="text"
-                            name=""
+                            name="topText"
+                            value={memeText.topText}
+                            onChange={handleChange}
                             id=""
                             placeholder="first half of phrase"
                         />
@@ -32,7 +46,9 @@ export const Form = () => {
                         <label>Bottom text</label>
                         <input
                             type="text"
-                            name=""
+                            name="bottomText"
+                            value={memeText.bottomText}
+                            onChange={handleChange}
                             id=""
                             placeholder="last half of phrase"
                         />
@@ -43,7 +59,14 @@ export const Form = () => {
                     Get a new meme image 🌄
                 </button>
             </form>
-            <img src={memeImg} alt="meme-image" />
+
+            {memeImgUrl && (
+                <div className="meme-image">
+                    <img src={memeImgUrl} alt="Meme" />
+                    <h2 className="top-meme-text">{memeText.topText}</h2>
+                    <h2 className="bottom-meme-text">{memeText.bottomText}</h2>
+                </div>
+            )}
         </main>
     );
 };
